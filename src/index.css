@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-black {
+    @apply bg-black text-white font-medium rounded-[4px] px-5 py-2;
+}
+
+.btn-black-md {
+    @apply md:bg-black md:text-white md:font-medium md:rounded-lg md:px-5 md:py-2
+}
